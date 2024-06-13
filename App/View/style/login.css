@@ -1,0 +1,76 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+    background: linear-gradient(to right, #79b6f6, #a03ca9);
+}
+
+.cls-login {
+    border-radius: 10px;
+    font-family: helvetica;
+    background-color: rgba(255, 255, 255, 0.934);
+    margin-top: 60px;
+    width: 370px;
+    height: 500px;
+}
+
+.cls-head {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 600;
+}
+
+.cls-form {
+    margin-top: 60px;
+}
+
+.cls-form input {
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    width: 275px;
+    margin-left: 48px;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: transparent;
+}
+
+.cls-error {
+    font-size: 12px;
+    color: red;
+    padding-left: 50px;
+}
+
+.cls-form input:focus {
+    outline: none;
+    border-bottom: 2px solid #79b6f6;
+    box-shadow: #7243af;
+    transition: ease-in .1s;
+}
+
+.cls-button {
+    text-align: center;
+    margin: 0px 49px;
+    margin-top: 10px;
+}
+
+.cls-button button {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+    padding: 7px 0px;
+    color: white;
+    background: linear-gradient(to right, #79b6f6, #a03ca9);
+    border-radius: 5px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #79b6f6, #a03ca9) 1;
+    transition: ease .4s;
+}
+
+.cls-button button:hover {
+    color: #a03ca9;
+    background: transparent;
+    border-image: linear-gradient(to right, #79b6f6, #a03ca9) 1;
+}

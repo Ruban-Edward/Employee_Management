@@ -1,0 +1,308 @@
+* {
+    margin: 0px auto;
+}
+
+.cls-nav {
+    height: 65px;
+    background: linear-gradient(to right, #79b6f6, #a03ca9);
+}
+
+.cls-logo {
+    width: 165px;
+    margin-left: 25px;
+}
+
+.cls-logo img {
+    width: 100%;
+}
+
+.cls-name h3 {
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.cls-logout {
+    margin-right: 25px;
+}
+
+.cls-logout i {
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+
+.cls-logout:hover {
+    color: white;
+}
+
+.cls-logout img:hover {
+    margin-right: 4px;
+}
+
+.cls-logout button {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 3px solid white;
+    padding: 2px 10px;
+    transition: ease-in-out .2s;
+}
+
+.cls-logout button:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.cls-home {
+    margin-top: 65px;
+}
+
+.cls-add {
+    margin-top: 90px;
+    border: 2px solid #eaeaea;
+    padding: 15px;
+    width: 1300px;
+}
+
+.cls-add i {
+    margin-right: 4px;
+    vertical-align: text-top;
+}
+
+.cls-add img {
+    vertical-align: text-top;
+    border-style: none;
+    margin-right: 4px;
+}
+
+.cls-add button {
+    font-weight: 600;
+    font-family: arial;
+    color: #248dfc;
+    background-color: transparent;
+    border: 2px solid #248dfc;
+    border-radius: 5px;
+    transition: ease-in-out .2s;
+}
+
+.cls-add button:hover {
+    color: white;
+    background-color: #248dfc;
+}
+
+.cls-modal-header {
+    background: linear-gradient(to right, #6b96c3, #a03ca9);
+    width: 100%;
+}
+
+.cls-mini-header {
+    background: linear-gradient(to right, #6b96c3, #a03ca9);
+    width: 100%;
+    height: 10px;
+}
+
+.cls-modal-header h5 {
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.cls-modal-body {
+    margin: 0px !important;
+}
+
+.cls-label {
+    text-align: end;
+    margin-top: 7px;
+}
+
+.cls-label label {
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.star {
+    color: red;
+}
+
+.cls-modal-header button {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: ease-in-out .2s;
+}
+
+.cls-modal-header button:hover {
+    color: black;
+    background-color: rgb(212, 212, 212);
+    border: 2px solid rgb(212, 212, 212);
+}
+
+.cls-error {
+    font-size: 14px;
+    color: red;
+    vertical-align: super;
+    margin-left: 3px;
+}
+
+.cls-input input {
+    border: 1px solid #c2c2c2;
+    transition: ease-in-out .2s;
+    margin-top: 11px;
+    width: 240px;
+}
+
+.cls-input select {
+    border: 1px solid #c2c2c2;
+    background-color: transparent;
+    transition: ease-in-out .2s;
+    margin-top: 12px;
+    padding: 4px 1px;
+    margin-bottom: 4px;
+    width: 240px;
+}
+
+.cls-input select:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px #248dfc;
+}
+
+.cls-input input:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px #248dfc;
+}
+
+#city {
+    margin-top: 13px;
+}
+
+#state,
+#country {
+    margin-top: 7px;
+}
+
+.modal-footer button {
+    background: linear-gradient(to right, #79b6f6, #a03ca9);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 5px;
+    transition: ease-in-out .2s;
+}
+
+.modal-footer button:hover {
+    background: linear-gradient(to right, #4c88c7, #722179);
+}
+
+.table {
+    margin: 0px auto;
+    width: 1300px !important;
+}
+
+.cls-up {
+    border-radius: 5px;
+    background-color: #ffd500;
+    border: 2px solid #ffd500;
+    color: black;
+    font-weight: 600;
+}
+
+.cls-up:hover {
+    background-color: #eda600;
+    border: 2px solid #eda600;
+    color: black;
+}
+
+.cls-del {
+    border-radius: 5px;
+    background-color: #f60f26;
+    border: 2px solid #f60f26;
+    color: white;
+    font-weight: 600;
+}
+
+.cls-del:hover {
+    background-color: #ce1a2c;
+    border: 2px solid #ce1a2c;
+}
+
+.cls-info {
+    border-radius: 5px;
+    background-color: #17a2b8;
+    border: 2px solid #17a2b8;
+    color: white;
+    font-weight: 600;
+}
+
+.cls-info:hover {
+    background-color: #187c8c;
+    border: 2px solid #187c8c;
+}
+
+#warning {
+    display: none;
+    text-align: center;
+}
+
+#warning button {
+    background: linear-gradient(to right, #79b6f6, #a03ca9);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 5px;
+    transition: ease-in-out .2s;
+    margin-top: 20px;
+}
+
+#warning button:hover {
+    background: linear-gradient(to right, #4c88c7, #722179);
+}
+
+#deleteMess {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.table {
+    text-align: center;
+}
+
+.table th,
+td {
+    vertical-align: middle !important;
+}
+
+.cls-page {
+    margin-top: -25px;
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.cls-page button {
+    border: none;
+    color: black;
+    background-color: transparent;
+    font-size: 23px;
+}
+
+.cls-page button:hover {
+    color: #a03ca9;
+    background-color: transparent;
+}
+
+.cls-page button i {
+    font-size: 17px;
+    transition: ease-in-out .2s;
+}
