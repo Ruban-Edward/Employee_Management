@@ -45,3 +45,5 @@
 
 Contributions are welcome! If you have any suggestions, bug reports, or enhancements, feel free to open an issue or submit a pull request. Please ensure your contributions align with the project’s coding standards and conventions.
    
+## <h2>License</h2>
+[MIT License](LICENSE)
