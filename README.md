@@ -41,7 +41,7 @@
   * Place the project files in the server’s root directory.
   * Access the application via http://localhost/employee-management-system.
 
-## <h2>Installation</h2>
+## <h2>Contribution</h2>
 
 Contributions are welcome! If you have any suggestions, bug reports, or enhancements, feel free to open an issue or submit a pull request. Please ensure your contributions align with the project’s coding standards and conventions.
    
